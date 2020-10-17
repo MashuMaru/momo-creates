@@ -37,6 +37,21 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     text-align: center;
+    padding-top: 5px;
+    left: 0;
     bottom: 0;
     width: 100%;
+    position: fixed;
+    background: #fcdada;
+    height: 75px;
+}
+
+.insta-img {
+    width: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.copyright {
+    padding-top: 1px;
 }
