@@ -83,3 +83,9 @@ footer {
     font-style: italic;
     color: white;
 }
+
+.needle-logo {
+    width: 100px;
+    opacity: 0.5;
+    orientation: 45;
+}
