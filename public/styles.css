@@ -9,21 +9,25 @@
     background: #fcdada;
     /* height: 50px; */
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
 }
 
 .header-momo {
     color: black;
     margin-left: 50px;
+    width: 150px;
+    padding-bottom: 
     float: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    display: inline;
 }
 
 .header-links {
     float: right;
     margin-right: 50px;
     font-family: 'Open Sans', sans-serif;
+    display: inline;
 }
 
 .links {
@@ -47,7 +51,7 @@ footer {
 }
 
 .insta-img {
-    width: 35px;
+    width: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
