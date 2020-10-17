@@ -60,3 +60,26 @@ footer {
 .copyright {
     padding-top: 1px;
 }
+
+.main-section {
+    height: 500px;
+    background: #ffa5a5;
+
+}
+
+.main-t {
+    padding-top: 170px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+.main-p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
