@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* for main colour background: #c56183; */
+
+.header {
+    background: #fcdada;
+    /* height: 50px; */
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.header-momo {
+    color: black;
+    margin-left: 50px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.header-links {
+    float: right;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+    padding-left: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
