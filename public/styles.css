@@ -7,7 +7,6 @@
 
 .header {
     background: #fcdada;
-    /* height: 50px; */
     padding-top: 10px;
     padding-bottom: 15px;
     padding-bottom: 10px;
@@ -15,20 +14,18 @@
 
 .header-momo {
     color: black;
-    margin-left: 20px;
-    /* width: 150px; */
-    /* float: left; */
+    margin-left: 25px;
     font-family: 'Open Sans', sans-serif;
+    color: black;
     font-weight: 700;
     display: inline;
 }
 
-.header-links {
+.header-links { 
     float: right;
-    margin-right: 50px;
+    margin-right: 25px;
     font-family: 'Open Sans', sans-serif;
-    /* display: inline; */
-
+    color: black;
 }
 
 .links {
@@ -66,8 +63,6 @@ footer {
     height: 500px;
     background: #ffa5a5;
     text-align: center;
-
-
 }
 
 .main-t {
