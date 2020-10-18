@@ -2,11 +2,11 @@ import React from "react";
 
 function Why() {
     return <div className="why-section">
-    <div class="row">
-        <div class="col">
+    <div className="row">
+        <div className="col">
         <img className="why-image" src={require('./images/why-image.jpg')} alt="pic"></img>
         </div>
-        <div class="col">
+        <div className="col">
         <h1 className="why-heading">WHY CHOOSE MOMO CREATES?</h1>
         <p className="why-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p className="why-p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
