@@ -2,7 +2,7 @@ import React from "react";
 
 function Why() {
     return <div className="why-section">
-    <img className="dec-img" src={require('./images/dec-needle.png')} alt="decoration"></img>
+    {/* <img className="dec-img" src={require('./images/dec-needle.png')} alt="decoration"></img> */}
         <h1 className="why-heading">WHY CHOOSE MOMO CREATES?</h1>
         <div className="container">
     <div class="row">
