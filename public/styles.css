@@ -10,6 +10,9 @@
     padding-top: 10px;
     padding-bottom: 15px;
     padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .header-momo {
@@ -20,6 +23,20 @@
     font-weight: 700;
     display: inline;
 }
+
+.content {
+    padding: 16px;
+  }
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 
 .header-links { 
     float: right;
@@ -40,10 +57,10 @@ footer {
     font-size: 12px;
     text-align: center;
     padding-top: 5px;
-    left: 0;
-    bottom: 0;
+    /* left: 0;
+    bottom: 0; */
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     background: #fcdada;
     height: 75px;
 }
@@ -63,6 +80,56 @@ footer {
     height: 500px;
     background: #ffa5a5;
     text-align: center;
+    /* border-radius: 0 0 5% 5%; */
+}
+
+.why-section {
+    position: relative;
+    /* height: 500px; */
+    background: #fff5ea;
+    text-align: center;
+    /* border-radius: -5% -5% 5% 5%; */
+}
+
+.why-image {
+    width: 700px;
+    margin-bottom: 25px;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+@media screen and (max-width: 790px) {
+    .why-image {
+        width: 450px;
+    }
+  }
+
+.why-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.why-p {
+    font-family: 'Open Sans', sans-serif;
+/* width: 350px; */
+    height: auto;
+    /* width: 110%; */
+    font-size: 18px;
+    /* padding-top: 25px; */
+    padding-bottom: 50px;
+}
+
+.dec-img {
+    width: 100px;
+    opacity: 0.5;
+    /* padding-right: 25px; */
+    position: absolute;
+    padding-top: 50px;
+    right: 92%;
 }
 
 .main-t {
