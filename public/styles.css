@@ -57,10 +57,10 @@ footer {
     font-size: 12px;
     text-align: center;
     padding-top: 5px;
-    /* left: 0;
-    bottom: 0; */
+    left: 0;
+    bottom: 0;
     width: 100%;
-    /* position: fixed; */
+    /* position: static; */
     background: #fcdada;
     height: 75px;
 }
@@ -85,6 +85,7 @@ footer {
 
 .why-section {
     position: relative;
+    width: 100%;
     /* height: 500px; */
     background: #fff5ea;
     text-align: center;
@@ -92,15 +93,16 @@ footer {
 }
 
 .why-image {
-    width: 700px;
-    margin-bottom: 25px;
-    border-radius: 5% 5% 5% 5%;
-    box-shadow: 10px 10px 5px grey;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    /* border-radius: 5% 5% 5% 5%; */
+    /* box-shadow: 10px 10px 5px grey; */
 }
 
 @media screen and (max-width: 790px) {
     .why-image {
         width: 450px;
+        margin-top: 50px;
     }
   }
 
@@ -110,17 +112,20 @@ footer {
     font-size: 35px;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .why-p {
     font-family: 'Open Sans', sans-serif;
-/* width: 350px; */
+    width: 80%;
+    /* max-width: 100%; */
+    margin-right: auto;
+    margin-left: auto;
     height: auto;
     /* width: 110%; */
     font-size: 18px;
     /* padding-top: 25px; */
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .dec-img {
