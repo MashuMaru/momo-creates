@@ -112,11 +112,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+    /* margin-bottom: 10%; */
 }
 
 @media screen and (max-width: 790px) {
     .recent-img {
-        margin-bottom: 50px;
+        width: 70%;
+        /* margin-bottom: 50px; */
     }
   }
 
@@ -189,6 +191,11 @@ footer {
             width: 450px;
             min-width: auto;
             margin-top: 50px;
+        }
+
+        .why-heading {
+            padding-top: 25px;
+            padding-bottom: 25px;
         }
       }
 

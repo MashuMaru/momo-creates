@@ -11,14 +11,14 @@ function Recent() {
     <div className="carousel-inner">
       <div className="carousel-item active img-fluid">
         <img src={require('./images/mainsection-img.png')} className="recent-img d-block" alt="..."></img>
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption">
           <h5 className="recent-title">Embroidery work 1</h5>
           <p className="recent-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div className="carousel-item img-fluid">
         <img src={require('./images/why-image.jpg')} className="recent-img d-block" alt="img-emb"></img> 
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption">
           <h5 className="recent-title">Embroidery work 2</h5>
           <p className="recent-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -47,3 +47,5 @@ function Recent() {
 export default Recent;
 
 // img-fluid was container-fluid
+
+// "d-none d-md-block" in div before the h5 and p caption for images. 
