@@ -8,10 +8,10 @@ function Header() {
                     </button>
                 <div className="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
-                        <a className="links nav-link header-links ml-auto " href="https://getbootstrap.com/docs/4.5/components/navbar/">Home</a>
-                        <a className="links nav-link header-links ml-auto" href="https://getbootstrap.com/docs/4.5/components/navbar/">Why Choose Momo Creates</a>
-                        <a className="links nav-link header-links ml-auto" href="https://getbootstrap.com/docs/4.5/components/navbar/">Recent Works</a>
-                        <a className="links nav-link header-links ml-auto" href="https://getbootstrap.com/docs/4.5/components/navbar/">Contact</a>
+                        <a className="links nav-link header-links ml-auto " href="#home">Home</a>
+                        <a className="links nav-link ml-auto" href="#why">Why Choose Momo Creates</a>
+                        <a className="links nav-link ml-auto" href="#recent">Recent Works</a>
+                        <a className="links nav-link ml-auto" href="#contact">Contact</a>
                     </div>
                 </div>
             </nav>
