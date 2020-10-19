@@ -9,15 +9,15 @@ function Recent() {
       {/* <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> */}
     </ol>
     <div className="carousel-inner">
-      <div className="carousel-item active container-fluid">
-        <img src={require('./images/mainsection-img.png')} className="recent-img d-block w-100" alt="..."></img>
+      <div className="carousel-item active img-fluid">
+        <img src={require('./images/mainsection-img.png')} className="recent-img d-block" alt="..."></img>
         <div className="carousel-caption d-none d-md-block">
           <h5 className="recent-title">Embroidery work 1</h5>
           <p className="recent-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
-      <div className="carousel-item container-fluid">
-        <img src={require('./images/why-image.jpg')} className="recent-img d-block w-100" alt="img-emb"></img>
+      <div className="carousel-item img-fluid">
+        <img src={require('./images/why-image.jpg')} className="recent-img d-block" alt="img-emb"></img> 
         <div className="carousel-caption d-none d-md-block">
           <h5 className="recent-title">Embroidery work 2</h5>
           <p className="recent-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -46,3 +46,4 @@ function Recent() {
 
 export default Recent;
 
+// img-fluid was container-fluid
