@@ -70,7 +70,7 @@ footer {
 } */
 
 .fa-instagram {
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -233,8 +233,13 @@ footer {
     margin-left: auto;
     height: auto;
     font-size: 15px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
+
+/* .inst-message {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+} */
 
 @media screen and (max-width: 790px) {
         .why-image {
