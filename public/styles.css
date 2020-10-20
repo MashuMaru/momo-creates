@@ -118,7 +118,7 @@ footer {
 .recent-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -132,15 +132,14 @@ footer {
     margin-bottom: 150px;
 }
 
-@media screen and (max-width: 790px) {
+/* @media screen and (max-device-width: 1028px) {
     .recent-img {
         width: 70%;
     }
-  }
+  } */
 
 .container-fluid {
     padding-top: 25px;
-    /* padding-bottom: 120px; */
     padding-bottom: 5px;
 }
 
@@ -158,51 +157,71 @@ footer {
 .why-image {
     width: 90%;
     min-width: 700px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 25px;
     margin-top: 25px;
     border-radius: 5% 5% 5% 5%; 
     box-shadow: 10px 10px 5px grey;
 }
 
-@media screen and (max-width: 790px) {
+/* @media screen and (max-width: 480px) {
     .why-image {
-        width: 450px;
-        min-width: auto;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  }
+        max-width: 100%;
+        min-width: 300px;
+        height: auto;
+  } */
+
+  /* @media screen and (min-width: 1048px) {
+    .why-image {
+        max-width: 100%;
+        min-width: 300px;
+        height: auto;
+  } */
 
 .why-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+@media screen and (max-device-width: 480px) {
+    .why-heading {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+  }
 
 .why-p {
     font-family: 'Open Sans', sans-serif;
     width: 80%;
     min-width: 380px;
+    /* width: 90%;
+    max-width: 200px; */
     margin-right: auto;
     margin-left: auto;
     height: auto;
     font-size: 18px;
     padding-bottom: 25px;
+    /* width: 90%;
+    max-width: 200px;
+    margin-top: 50px;
+    padding-left: auto;
+    padding-right: auto; */
+
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-device-width: 480px) {
     .why-p {
+        /* width: 90%;
+        max-width: 200px; */
         width: 95%;
-        min-width: auto;
+        max-width: 380px;
         margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
     }
   }
 
@@ -211,7 +230,7 @@ footer {
     z-index: 1;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     /* padding-top: 10px; */
     padding-bottom: 10px;
@@ -245,21 +264,6 @@ footer {
     font-size: 15px;
     /* padding-bottom: 5px; */
 }
-
-
-@media screen and (max-width: 790px) {
-        .why-image {
-            width: 450px;
-            min-width: auto;
-            margin-top: 50px;
-        }
-        .why-heading {
-            padding-top: 25px;
-            padding-bottom: 25px;
-        }
-      }
-
-
 
 .dec-img {
     width: 100px;
