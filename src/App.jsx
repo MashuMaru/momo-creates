@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Main from "./Main";
 import Why from "./Why";
 import Recent from "./Recent";
+import Contact from "./Contact";
 
 function App() {
     return <div>
@@ -11,6 +12,7 @@ function App() {
     <Main />
     <Why />
     <Recent />
+    <Contact />
     <Footer />
     </div>
 }

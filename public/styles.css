@@ -59,17 +59,29 @@ footer {
     position: relative;
     background: #fcdada;
     overflow: hidden;
-    height: 75px;
+    /* height: 80px; */
+    height: 100%;
 }
 
-.insta-img {
+/* .insta-img {
     width: 30px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+} */
+
+.fa-instagram {
+    font-size: 30px;
+    color: black;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 
+.fa-instagram:hover {
+    color: white;
+}
+
 .copyright {
-    padding-top: 1px;
+    padding-top: 10px;
 }
 
 
@@ -78,15 +90,21 @@ footer {
     height: 500px;
     background: #ffa5a5;
     text-align: center;
-    /* border-radius: 0 0 5% 5%; */
 }
 
 .why-section {
     position: relative;
     width: 100%;
-    background: #fff0f0;
+    background: #fbe2e5;
     text-align: center;
-    /* border-radius: -5% -5% 5% 5%; */
+}
+
+.contact-section {
+    position: relative;
+    width: 100%;
+    background: #fcdada;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .recent-section {
@@ -112,19 +130,18 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
-    /* margin-bottom: 10%; */
 }
 
 @media screen and (max-width: 790px) {
     .recent-img {
         width: 70%;
-        /* margin-bottom: 50px; */
     }
   }
 
 .container-fluid {
     padding-top: 25px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    padding-bottom: 5px;
 }
 
 .recent-title {
@@ -137,10 +154,6 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
-
-/* .carousel-control-prev {
-    margin-left: 50px;
-} */
 
 .why-image {
     width: 90%;
@@ -176,14 +189,51 @@ footer {
     font-family: 'Open Sans', sans-serif;
     width: 80%;
     min-width: 380px;
-    /* max-width: 100%; */
     margin-right: auto;
     margin-left: auto;
     height: auto;
-    /* width: 110%; */
     font-size: 18px;
-    /* padding-top: 25px; */
     padding-bottom: 25px;
+}
+
+.contact-heading {
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+
+.contact-subheading {
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+
+.contact-t {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;;
+}
+
+.contact-p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    min-width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 790px) {
@@ -192,7 +242,6 @@ footer {
             min-width: auto;
             margin-top: 50px;
         }
-
         .why-heading {
             padding-top: 25px;
             padding-bottom: 25px;
@@ -204,7 +253,6 @@ footer {
 .dec-img {
     width: 100px;
     opacity: 0.5;
-    /* padding-right: 25px; */
     position: absolute;
     padding-top: 50px;
     right: 92%;
@@ -227,11 +275,9 @@ footer {
 .main-p {
     position: relative;
     font-size: 35px;
-    /* font-weight: 600; */
     z-index: 3;
     padding-top: 250px;
     font-family: 'Niconne', cursive;
-    /* font-family: 'Open Sans', sans-serif; */
     text-align: center;
     font-style: italic;
     color: black;
@@ -241,7 +287,6 @@ footer {
     .main-t {
         font-size: 45px;
     }
-
     .main-p {
         font-size: 25px;
     }
@@ -256,8 +301,18 @@ img.needle-logo {
     margin-left: auto;
     margin-right: auto;
     opacity: 0.5;
-
 }
+
+/*with full background image on main section */
+/* img.needle-logo-two {
+    position: relative;
+    z-index: 0;
+    margin-top: -400px;
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+    background-size: contain;
+} */
 
 html,body {
     width: 100%;
@@ -266,8 +321,8 @@ html,body {
     padding: 0px;
     overflow-x: hidden; 
 }
-/* container-fluid */
-/* .img-fluid {
-    width: 250px;
-
-} */
+/*colour of nav-bar links */
+nav .navbar-nav a {
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    }
