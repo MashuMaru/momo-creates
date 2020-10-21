@@ -132,12 +132,6 @@ footer {
     margin-bottom: 150px;
 }
 
-/* @media screen and (max-device-width: 1028px) {
-    .recent-img {
-        width: 70%;
-    }
-  } */
-
 .container-fluid {
     padding-top: 25px;
     padding-bottom: 5px;
@@ -155,7 +149,7 @@ footer {
 }
 
 .why-image {
-    width: 90%;
+    max-width: 90%;
     min-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -165,19 +159,13 @@ footer {
     box-shadow: 10px 10px 5px grey;
 }
 
-/* @media screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     .why-image {
-        max-width: 100%;
-        min-width: 300px;
-        height: auto;
-  } */
-
-  /* @media screen and (min-width: 1048px) {
-    .why-image {
-        max-width: 100%;
-        min-width: 300px;
-        height: auto;
-  } */
+        width: 350px;
+        min-width: 0;
+        max-width: 350px;
+    }
+}
 
 .why-heading {
     font-family: 'Open Sans', sans-serif;
@@ -187,7 +175,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 500px) {
     .why-heading {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -196,34 +184,25 @@ footer {
 
 .why-p {
     font-family: 'Open Sans', sans-serif;
-    width: 80%;
+    /* width: 80%; */
+    text-align: center;
     min-width: 380px;
-    /* width: 90%;
-    max-width: 200px; */
     margin-right: auto;
     margin-left: auto;
+    margin-right: 25px;
+    margin-left: 25px;
     height: auto;
     font-size: 18px;
     padding-bottom: 25px;
-    /* width: 90%;
-    max-width: 200px;
-    margin-top: 50px;
-    padding-left: auto;
-    padding-right: auto; */
-
 }
 
-@media screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
     .why-p {
-        /* width: 90%;
-        max-width: 200px; */
-        width: 95%;
-        max-width: 380px;
-        margin-top: 50px;
-        padding-left: auto;
-        padding-right: auto;
+        min-width: 200px;
+        margin-right: 25px;
+        margin-left: 25px;
     }
-  }
+}
 
 .contact-heading {
     position: relative;
@@ -232,7 +211,6 @@ footer {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    /* padding-top: 10px; */
     padding-bottom: 10px;
 }
 
