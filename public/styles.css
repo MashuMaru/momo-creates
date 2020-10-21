@@ -159,10 +159,18 @@ footer {
     box-shadow: 10px 10px 5px grey;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     .why-image {
-        width: 350px;
-        min-width: 0;
+        width: 450px;
+        min-width: 300px;
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .why-image {
+        width: 450px;
+        min-width: 300px;
         max-width: 350px;
     }
 }
@@ -175,7 +183,8 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-@media screen and (max-width: 500px) {
+
+@media only screen and (max-width: 500px) {
     .why-heading {
         padding-top: 25px;
         padding-bottom: 25px;
