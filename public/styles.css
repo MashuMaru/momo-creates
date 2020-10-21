@@ -4,7 +4,8 @@
 }
 
 .header {
-    background: #fcdada;
+    /* background: #fcdada; */
+    background: #f9c0c0;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-bottom: 10px;
@@ -57,7 +58,7 @@ footer {
     bottom: 0;
     width: 100%;
     position: relative;
-    background: #fcdada;
+    background: #f9c0c0;
     overflow: hidden;
     /* height: 80px; */
     height: 100%;
@@ -88,11 +89,19 @@ footer {
 .main-section {
     position: relative;
     height: 500px;
+    height: 100%;
     background: #ffa5a5;
     text-align: center;
 }
 
 .why-section {
+    position: relative;
+    width: 100%;
+    background: #ffa5a5;
+    text-align: center;
+}
+
+.about-section {
     position: relative;
     width: 100%;
     background: #fbe2e5;
@@ -102,7 +111,7 @@ footer {
 .contact-section {
     position: relative;
     width: 100%;
-    background: #fcdada;
+    background: #f9c0c0;
     margin-bottom: 0;
     text-align: center;
 }
@@ -111,7 +120,7 @@ footer {
     position: relative;
     width: 100%;
     height: 100%;
-    background: #ffa5a5;
+    background: #fbe2e5;
     text-align: center;
 }
 
@@ -175,6 +184,35 @@ footer {
     }
 }
 
+.about-image {
+    max-width: 80%;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5% 5% 5% 5%; 
+    box-shadow: 10px 10px 5px grey;
+    /* float: right; */
+}
+
+@media only screen and (max-width: 650px) {
+    .about-image {
+        width: 450px;
+        min-width: 300px;
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about-image {
+        width: 450px;
+        min-width: 300px;
+        max-width: 350px;
+        /* margin-right: 25px; */
+    }
+}
+
 .why-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -186,6 +224,24 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .why-heading {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+  }
+  
+.about-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    /* float: left; */
+    padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .about-heading {
         padding-top: 25px;
         padding-bottom: 25px;
     }
@@ -207,6 +263,31 @@ footer {
 
 @media only screen and (max-width: 480px) {
     .why-p {
+        min-width: 200px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}
+
+.about-p {
+    font-family: 'Open Sans', sans-serif;
+    /* width: 80%; */
+    text-align: center;
+    min-width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    /* padding-left: 50px; */
+    height: auto;
+    font-size: 18px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    /* float: left; */
+}
+
+@media only screen and (max-width: 480px) {
+    .about-p {
         min-width: 200px;
         margin-right: 25px;
         margin-left: 25px;
@@ -240,6 +321,7 @@ footer {
 }
 
 .contact-p {
+    text-align: center;
     position: relative;
     z-index: 1;
     font-family: 'Open Sans', sans-serif;
@@ -294,27 +376,22 @@ footer {
     }
   }
 
-img.needle-logo {
+img.logo-img {
     position: relative;
     z-index: 0;
-    margin-top: -200px;
-    width: 300px;
-    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* margin-top: -200px; */
+    width: 80%;
+    max-width: 850px;
+    /* display: block; */
+    /* margin-top: auto;
+    margin-bottom: auto; */
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.5;
+    opacity: 1;
 }
 
-/* with full background image on main section */
-/* img.needle-logo-two {
-    position: relative;
-    z-index: 0;
-    margin-top: -400px;
-    width: 100%;
-    display: block;
-    opacity: 0.5;
-    background-size: contain;
-} */
 
 html,body {
     width: 100%;

@@ -11,6 +11,7 @@ function Header() {
                 <div className="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
                         <a className="links nav-link header-links ml-auto " href="#home">Home</a>
+                        <a className="links nav-link ml-auto" href="#about">About</a>
                         <a className="links nav-link ml-auto" href="#why">Why Choose Momo Creates</a>
                         <a className="links nav-link ml-auto" href="#carouselExampleIndicators">Recent Works</a>
                         <a className="links nav-link ml-auto" href="#contact">Contact</a>
