@@ -328,3 +328,7 @@ nav .navbar-nav a {
     color: black !important;
     font-family: 'Open Sans', sans-serif !important;
     }
+
+    nav .navbar-nav a:hover {
+        color: white !important;
+        }
