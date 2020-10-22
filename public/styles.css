@@ -112,7 +112,7 @@ footer {
     position: relative;
     width: 100%;
     background: #f9c0c0;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ footer {
 }
 
 .container-fluid {
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-bottom: 5px;
 }
 
@@ -163,7 +163,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     border-radius: 5% 5% 5% 5%; 
     box-shadow: 10px 10px 5px grey;
 }
@@ -185,12 +185,12 @@ footer {
 }
 
 .about-image {
-    max-width: 80%;
+    max-width: 100%;
     min-width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     border-radius: 5% 5% 5% 5%; 
     box-shadow: 10px 10px 5px grey;
     /* float: right; */
@@ -218,12 +218,13 @@ footer {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 500px) {
     .why-heading {
+        /* width: 400px; */
         padding-top: 25px;
         padding-bottom: 25px;
     }
@@ -231,21 +232,21 @@ footer {
   
 .about-heading {
     font-family: 'Open Sans', sans-serif;
+    min-width: 80%;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
-    /* float: left; */
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     .about-heading {
         padding-top: 25px;
         padding-bottom: 25px;
     }
-  }
+  } */
 
 .why-p {
     font-family: 'Open Sans', sans-serif;
@@ -278,11 +279,10 @@ footer {
     margin-left: auto;
     margin-right: 25px;
     margin-left: 25px;
-    /* padding-left: 50px; */
     height: auto;
     font-size: 18px;
-    padding-top: 20px;
-    /* padding-bottom: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     /* float: left; */
 }
 
@@ -295,13 +295,15 @@ footer {
 }
 
 .contact-heading {
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
+    margin-top: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contact-subheading {
