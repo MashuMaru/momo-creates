@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 function Header() {
     return <nav className="navbar navbar-expand-lg navbar-light header sticky-top" id="myHeader">
                 <a className="header-momo" href="https://getbootstrap.com/docs/4.5/components/navbar/">MOMO CREATES</a>
@@ -18,6 +16,7 @@ function Header() {
                     </div>
                 </div>
             </nav>
+            
 }
 
 export default Header;

@@ -182,7 +182,7 @@ footer {
     box-shadow: 10px 10px 5px grey;
 }
 
-@media only screen and (max-width: 1155px) { /*650*/ /*1155*/
+@media only screen and (max-width: 1300px) {  /*1155*/
     .why-image {
         display: none;
     }
@@ -199,7 +199,25 @@ footer {
         margin-right: auto;
     }
 }
-
+/* new CSS from here */
+@media only screen and (max-width: 450px) { /*650*/ /*1155*/
+    .why-image {
+        display: none;
+    }
+    .why-after-img {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 300px;
+        max-width: 100%; /*350*/ /* 80% */
+    }
+    .col-before {
+        display: contents;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* new CSS from above */
 .about-image {
     max-width: 100%;
     min-width: 700px;
@@ -289,7 +307,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     /* width: 80%; */
     text-align: center;
-    min-width: 380px;
+    min-width: 450px; /*380*/
     margin-right: auto;
     margin-left: auto;
     margin-right: 15px;
