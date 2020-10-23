@@ -3,9 +3,12 @@ import React from "react";
 function Why() {
     return <section className="why-section" id="why">
     <h1 className="why-heading">WHY CHOOSE MOMO CREATES?</h1>
+    <div className="col-before col">
+        <img className="why-after-img" src={require('./images/why-image.jpg')} alt="pic"></img>
+        </div>
     <div className="row">
-        {/* <div className="col">
-        <img className="why-image" src={require('./images/why-image.jpg')} alt="pic"></img>
+        {/* <div className="col-before">
+        <img className="why-after-img" src={require('./images/why-image.jpg')} alt="pic"></img>
         </div> */}
         <div className="col">
         {/* <h1 className="why-heading">WHY CHOOSE MOMO CREATES?</h1> */}
@@ -17,7 +20,7 @@ function Why() {
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
 
-        <div className="col">
+        <div className="col-after">
         <img className="why-image" src={require('./images/why-image.jpg')} alt="pic"></img>
         </div>
     </div>

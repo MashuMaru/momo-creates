@@ -158,7 +158,7 @@ footer {
 }
 
 .why-image {
-    max-width: 80%;
+    max-width: 80%; /* 80 */
     min-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -168,37 +168,37 @@ footer {
     box-shadow: 10px 10px 5px grey;
 }
 
-@media only screen and (max-width: 650px) {
-    .why-image {
-        width: 450px;
-        min-width: 300px;
-        max-width: 350px;
-        margin-bottom: 50px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .why-image {
-        width: 450px;
-        min-width: 300px;
-        max-width: 350px;
-    }
-}
-
-.about-afterimage {
+.col-before {
     display: none;
-    max-width: 100%;
-    min-width: 700px;
+}
+
+.why-after-img {
+    display: none;
+    max-width: 70%; /*70%*/
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
-    /* margin-top: 25px; */
+    margin-bottom: 50px;
     border-radius: 5% 5% 5% 5%; 
     box-shadow: 10px 10px 5px grey;
-    /* float: right; */
 }
 
-
+@media only screen and (max-width: 1155px) { /*650*/ /*1155*/
+    .why-image {
+        display: none;
+    }
+    .why-after-img {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 300px;
+        max-width: 80%; /*350*/ /* 80% */
+    }
+    .col-before {
+        display: contents;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .about-image {
     max-width: 100%;
@@ -206,32 +206,24 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    /* margin-top: 25px; */
     border-radius: 5% 5% 5% 5%; 
     box-shadow: 10px 10px 5px grey;
-    /* float: right; */
 }
 
-@media only screen and (max-width: 650px) { /*65 */
+@media only screen and (max-width: 650px) { /*650 */
     .about-image {
-        /* display: none; */
-        width: 450px;
+        display: inline;
         min-width: 300px;
-        max-width: 350px;
+        max-width: 350px; /*350px*/
     }
-    /* .about-afterimage {
-        display: inherit;
-        width: 450px;
-        min-width: 300px;
-        max-width: 350px;
-    } */
+
 }
 
 @media only screen and (max-width: 700px) {
     .about-image {
         width: 450px;
         min-width: 300px;
-        max-width: 350px;
+        max-width: 100%; /*350*/
         /* margin-right: 25px; */
     }
 }
