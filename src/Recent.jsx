@@ -10,10 +10,10 @@ function Recent() {
     </ol>
     <div className="carousel-inner">
       <div className="carousel-item active img-fluid">
-        <img src={require('./images/mainsection-img.png')} className="recent-img d-block" alt="..."></img>
+        <img src={require('./images/recent-1.jpg')} className="recent-img d-block" alt="..."></img>
         <div className="carousel-caption">
-          <h5 className="recent-title">Embroidery work 1</h5>
-          <p className="recent-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5 className="recent-title">Rassams Creamery</h5>
+          <p className="recent-p">Main logo production. </p>
         </div>
       </div>
       <div className="carousel-item img-fluid">

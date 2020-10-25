@@ -4,7 +4,7 @@ function Why() {
     return <section className="why-section" id="why">
     <h1 className="why-heading">WHY CHOOSE MOMO CREATES?</h1>
     <div className="col-before col">
-        <img className="why-after-img" src={require('./images/why-image.jpg')} alt="pic"></img>
+        <img className="why-after-img" src={require('./images/why-image-orig.JPG')} alt="pic"></img>
         </div>
     <div className="row">
         {/* <div className="col-before">
