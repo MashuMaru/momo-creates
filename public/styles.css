@@ -174,7 +174,7 @@ img.logo-img {
 }
 
 .why-image {
-    max-width: 80%; /* 80 */
+    max-width: 70%; /* 70% */
     min-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -213,6 +213,9 @@ img.logo-img {
         display: contents;
         margin-left: auto;
         margin-right: auto;
+    }
+    .col-after {
+        display: none;
     }
 }
 /* new CSS from here */

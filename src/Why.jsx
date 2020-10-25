@@ -20,8 +20,8 @@ function Why() {
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
 
-        <div className="col-after">
-        <img className="why-image" src={require('./images/why-image.jpg')} alt="pic"></img>
+        <div className="col col-after">
+        <img className="why-image" src={require('./images/why-image-orig.JPG')} alt="pic"></img>
         </div>
     </div>
 

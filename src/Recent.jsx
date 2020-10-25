@@ -13,14 +13,14 @@ function Recent() {
         <img src={require('./images/recent-1.jpg')} className="recent-img d-block" alt="..."></img>
         <div className="carousel-caption">
           <h5 className="recent-title">Rassams Creamery</h5>
-          <p className="recent-p">Main logo production. </p>
+          <p className="recent-p">Main logo embroidery to restaurant furniture. </p>
         </div>
       </div>
       <div className="carousel-item img-fluid">
-        <img src={require('./images/why-image.jpg')} className="recent-img d-block" alt="img-emb"></img> 
+        <img src={require('./images/recent-2.JPG')} className="recent-img d-block" alt="img-emb"></img> 
         <div className="carousel-caption">
-          <h5 className="recent-title">Embroidery work 2</h5>
-          <p className="recent-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5 className="recent-title">Holy Goat Customs</h5>
+          <p className="recent-p">Logo designs embroidery to motorcycle seats.</p>
         </div>
       </div>
       {/* <div className="carousel-item container-fluid">
