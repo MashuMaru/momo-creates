@@ -1,5 +1,9 @@
 import React from "react";
 
+function enlarge() {
+    alert('Enlarge this image.');
+}
+
 function Recent() {
     return <section id="carouselExampleIndicators" className="recent-section carousel slide" data-ride="carousel">
     <h1 className="recent-heading">RECENT WORK</h1>
@@ -10,14 +14,14 @@ function Recent() {
     </ol>
     <div className="carousel-inner">
       <div className="carousel-item active img-fluid">
-        <img src={require('./images/recent-1.jpg')} className="recent-img d-block" alt="..."></img>
+        <img src={require('./images/recent-1.jpg')} className="recent-img d-block" alt="..." onClick={enlarge}></img>
         <div className="carousel-caption">
           <h5 className="recent-title">Rassams Creamery</h5>
           <p className="recent-p">Main logo embroidery to restaurant furniture. </p>
         </div>
       </div>
       <div className="carousel-item img-fluid">
-        <img src={require('./images/recent-2.JPG')} className="recent-img d-block" alt="img-emb"></img> 
+        <img src={require('./images/recent-2.JPG')} className="recent-img d-block" alt="img-emb" onClick={enlarge}></img> 
         <div className="carousel-caption">
           <h5 className="recent-title">Holy Goat Customs</h5>
           <p className="recent-p">Logo designs embroidery to motorcycle seats.</p>

@@ -150,16 +150,33 @@ img.logo-img {
 }
 
 .recent-img {
-    width: 75%;
+    width: 50%; /*75% */
     border-radius: 5%; 
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
 }
 
-.container-fluid {
+/* .recent-img:hover {
+    width: 100%; 
+    border-radius: 5%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+} */
+
+
+@media only screen and (max-width: 450px) {
+    .recent-img {
+        width: 75%;
+    }
+}
+
+.container-fluid, .container {
     /* padding-top: 25px; */
     padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .recent-title {
@@ -331,6 +348,7 @@ img.logo-img {
     margin-left: auto;
     margin-right: 15px;
     margin-left: 15px;
+
     height: auto;
     font-size: 18px;
     padding-top: 10px;
@@ -461,6 +479,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    text-align: center;
 }
 /*colour of nav-bar links */
 nav .navbar-nav a {
@@ -471,3 +490,6 @@ nav .navbar-nav a {
     nav .navbar-nav a:hover {
         color: white !important;
         }
+
+
+
