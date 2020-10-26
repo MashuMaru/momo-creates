@@ -1,10 +1,12 @@
 import React from "react";
 
-function instagram() {
-    window.open('https://www.instagram.com/', '_blank');
-}
+
 
 function Footer() {
+
+    function instagram() {
+        window.open('https://www.instagram.com/', '_blank');
+    }
     const currentYear = new Date().getFullYear();
     return <footer>
     <i className="fab fa-instagram inst-message" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/" onClick={instagram}></i>
